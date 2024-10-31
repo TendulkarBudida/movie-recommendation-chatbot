@@ -17,7 +17,7 @@ function App() {
         <ChatBot />
       </div>
 
-      <footer className="w-full max-w-full sm:max-w-4xl lg:max-w-6xl text-center mt-2 sm:mt-6 text-gray-400 text-xs sm:text-sm space-y-1 px-10">
+      <footer className="w-full max-w-full sm:max-w-4xl lg:max-w-6xl text-center mt-2 sm:mt-6 text-gray-400 text-xs sm:text-sm space-y-1 px-16">
         <p>© {new Date().getFullYear()} All rights reserved. Developed by <b>Tendulkar Budida</b></p>
         <div className="flex justify-center gap-4">
           <a href="https://github.com/TendulkarBudida" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-gray-200 underline">
