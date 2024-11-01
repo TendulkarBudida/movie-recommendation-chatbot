@@ -71,8 +71,8 @@ const ChatBot = () => {
   };
 
   return (
-    <div className="w-full max-w-full h-[600px] sm:h-[500px] lg:h-[600px] flex flex-col bg-gray-950 shadow-lg rounded-lg overflow-hidden">
-      <div className="flex-1 overflow-y-auto p-2 sm:p-4 space-y-4 bg-gray-900 text-gray-100">
+    <div className="w-full max-w-full h-[600px] sm:h-[500px] lg:h-[600px] flex flex-col bg-black shadow-lg rounded-lg overflow-hidden">
+      <div className="flex-1 overflow-y-auto p-2 sm:p-4 space-y-4 bg-gray-900 text-gray-100 rounded-lg">
         {messages.map((message, index) => (
           <div
             key={index}
@@ -108,7 +108,7 @@ const ChatBot = () => {
         )}
         <div ref={messagesEndRef} />
       </div>
-      <form onSubmit={handleSubmit} className="border-t border-gray-800 p-2 sm:p-4 bg-gray-950">
+      <form onSubmit={handleSubmit} className="border-gray-800 pt-2 sm:pt-4 bg-black">
         <div className="flex gap-2">
           <input
             type="text"
